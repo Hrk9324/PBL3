@@ -31,9 +31,14 @@
             this.components = new System.ComponentModel.Container();
             this.Staff = new System.Windows.Forms.Label();
             this.PnlStaffInfomation = new System.Windows.Forms.Panel();
+            this.BtnSave = new System.Windows.Forms.Button();
+            this.PnlSex = new System.Windows.Forms.Panel();
+            this.RadFemale = new System.Windows.Forms.RadioButton();
+            this.RadMale = new System.Windows.Forms.RadioButton();
             this.LblStaffPhone = new System.Windows.Forms.Label();
             this.LblUsername = new System.Windows.Forms.Label();
             this.LblStaffName = new System.Windows.Forms.Label();
+            this.LblSex = new System.Windows.Forms.Label();
             this.LblPassword = new System.Windows.Forms.Label();
             this.TxtPassword = new System.Windows.Forms.TextBox();
             this.TxtUsername = new System.Windows.Forms.TextBox();
@@ -42,11 +47,6 @@
             this.TxtStaffID = new System.Windows.Forms.TextBox();
             this.LblStaffID = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.LblSex = new System.Windows.Forms.Label();
-            this.PnlSex = new System.Windows.Forms.Panel();
-            this.RadMale = new System.Windows.Forms.RadioButton();
-            this.RadFemale = new System.Windows.Forms.RadioButton();
-            this.BtnSave = new System.Windows.Forms.Button();
             this.DgvStaffInfomationList = new System.Windows.Forms.DataGridView();
             this.PnlStaffInfomation.SuspendLayout();
             this.PnlSex.SuspendLayout();
@@ -84,6 +84,49 @@
             this.PnlStaffInfomation.Size = new System.Drawing.Size(549, 314);
             this.PnlStaffInfomation.TabIndex = 2;
             // 
+            // BtnSave
+            // 
+            this.BtnSave.Font = new System.Drawing.Font("Times New Roman", 16F);
+            this.BtnSave.Location = new System.Drawing.Point(369, 231);
+            this.BtnSave.Name = "BtnSave";
+            this.BtnSave.Size = new System.Drawing.Size(107, 55);
+            this.BtnSave.TabIndex = 3;
+            this.BtnSave.Text = "Save";
+            this.BtnSave.UseVisualStyleBackColor = true;
+            // 
+            // PnlSex
+            // 
+            this.PnlSex.Controls.Add(this.RadFemale);
+            this.PnlSex.Controls.Add(this.RadMale);
+            this.PnlSex.Location = new System.Drawing.Point(199, 223);
+            this.PnlSex.Name = "PnlSex";
+            this.PnlSex.Size = new System.Drawing.Size(94, 63);
+            this.PnlSex.TabIndex = 2;
+            // 
+            // RadFemale
+            // 
+            this.RadFemale.AutoSize = true;
+            this.RadFemale.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RadFemale.Location = new System.Drawing.Point(3, 35);
+            this.RadFemale.Name = "RadFemale";
+            this.RadFemale.Size = new System.Drawing.Size(89, 26);
+            this.RadFemale.TabIndex = 1;
+            this.RadFemale.TabStop = true;
+            this.RadFemale.Text = "Female";
+            this.RadFemale.UseVisualStyleBackColor = true;
+            // 
+            // RadMale
+            // 
+            this.RadMale.AutoSize = true;
+            this.RadMale.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RadMale.Location = new System.Drawing.Point(3, 3);
+            this.RadMale.Name = "RadMale";
+            this.RadMale.Size = new System.Drawing.Size(72, 26);
+            this.RadMale.TabIndex = 0;
+            this.RadMale.TabStop = true;
+            this.RadMale.Text = "Male";
+            this.RadMale.UseVisualStyleBackColor = true;
+            // 
             // LblStaffPhone
             // 
             this.LblStaffPhone.AutoSize = true;
@@ -113,6 +156,16 @@
             this.LblStaffName.Size = new System.Drawing.Size(98, 22);
             this.LblStaffName.TabIndex = 0;
             this.LblStaffName.Text = "Staff Name";
+            // 
+            // LblSex
+            // 
+            this.LblSex.AutoSize = true;
+            this.LblSex.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblSex.Location = new System.Drawing.Point(64, 223);
+            this.LblSex.Name = "LblSex";
+            this.LblSex.Size = new System.Drawing.Size(39, 22);
+            this.LblSex.TabIndex = 0;
+            this.LblSex.Text = "Sex";
             // 
             // LblPassword
             // 
@@ -179,59 +232,6 @@
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // LblSex
-            // 
-            this.LblSex.AutoSize = true;
-            this.LblSex.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSex.Location = new System.Drawing.Point(64, 223);
-            this.LblSex.Name = "LblSex";
-            this.LblSex.Size = new System.Drawing.Size(39, 22);
-            this.LblSex.TabIndex = 0;
-            this.LblSex.Text = "Sex";
-            // 
-            // PnlSex
-            // 
-            this.PnlSex.Controls.Add(this.RadFemale);
-            this.PnlSex.Controls.Add(this.RadMale);
-            this.PnlSex.Location = new System.Drawing.Point(199, 223);
-            this.PnlSex.Name = "PnlSex";
-            this.PnlSex.Size = new System.Drawing.Size(94, 63);
-            this.PnlSex.TabIndex = 2;
-            // 
-            // RadMale
-            // 
-            this.RadMale.AutoSize = true;
-            this.RadMale.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadMale.Location = new System.Drawing.Point(3, 3);
-            this.RadMale.Name = "RadMale";
-            this.RadMale.Size = new System.Drawing.Size(72, 26);
-            this.RadMale.TabIndex = 0;
-            this.RadMale.TabStop = true;
-            this.RadMale.Text = "Male";
-            this.RadMale.UseVisualStyleBackColor = true;
-            // 
-            // RadFemale
-            // 
-            this.RadFemale.AutoSize = true;
-            this.RadFemale.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadFemale.Location = new System.Drawing.Point(3, 35);
-            this.RadFemale.Name = "RadFemale";
-            this.RadFemale.Size = new System.Drawing.Size(89, 26);
-            this.RadFemale.TabIndex = 1;
-            this.RadFemale.TabStop = true;
-            this.RadFemale.Text = "Female";
-            this.RadFemale.UseVisualStyleBackColor = true;
-            // 
-            // BtnSave
-            // 
-            this.BtnSave.Font = new System.Drawing.Font("Times New Roman", 16F);
-            this.BtnSave.Location = new System.Drawing.Point(369, 231);
-            this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(107, 55);
-            this.BtnSave.TabIndex = 3;
-            this.BtnSave.Text = "Save";
-            this.BtnSave.UseVisualStyleBackColor = true;
             // 
             // DgvStaffInfomationList
             // 

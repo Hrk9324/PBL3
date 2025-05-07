@@ -33,7 +33,7 @@
             this.LblEmployeeID = new System.Windows.Forms.Label();
             this.TxtEmployeeID = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.PnlBooking = new System.Windows.Forms.Panel();
             this.BtnBookingSave = new System.Windows.Forms.Button();
             this.PnlSex = new System.Windows.Forms.Panel();
             this.RadMale = new System.Windows.Forms.RadioButton();
@@ -59,7 +59,7 @@
             this.TxtRoomNumber = new System.Windows.Forms.TextBox();
             this.TxtCustomerID = new System.Windows.Forms.TextBox();
             this.TxtBookingID = new System.Windows.Forms.TextBox();
-            this.panel1.SuspendLayout();
+            this.PnlBooking.SuspendLayout();
             this.PnlSex.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -97,38 +97,38 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // panel1
+            // PnlBooking
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.BtnBookingSave);
-            this.panel1.Controls.Add(this.PnlSex);
-            this.panel1.Controls.Add(this.DtpCheckInDate);
-            this.panel1.Controls.Add(this.DtpBookingDate);
-            this.panel1.Controls.Add(this.LblSex);
-            this.panel1.Controls.Add(this.LblNationalIDCard);
-            this.panel1.Controls.Add(this.LblPhoneNumber);
-            this.panel1.Controls.Add(this.LblCustomerName);
-            this.panel1.Controls.Add(this.LblRoomDepsit);
-            this.panel1.Controls.Add(this.LblCheckInDate);
-            this.panel1.Controls.Add(this.LblRoomAvailability);
-            this.panel1.Controls.Add(this.LblBookingDate);
-            this.panel1.Controls.Add(this.LblRoomNumber);
-            this.panel1.Controls.Add(this.LblCustomerID);
-            this.panel1.Controls.Add(this.LblBookingID);
-            this.panel1.Controls.Add(this.TxtNationalIDCard);
-            this.panel1.Controls.Add(this.TxtPhoneNumber);
-            this.panel1.Controls.Add(this.TxtCustomerName);
-            this.panel1.Controls.Add(this.TxtRoomDeposit);
-            this.panel1.Controls.Add(this.LblEmployeeID);
-            this.panel1.Controls.Add(this.TxtRoomAvailability);
-            this.panel1.Controls.Add(this.TxtRoomNumber);
-            this.panel1.Controls.Add(this.TxtCustomerID);
-            this.panel1.Controls.Add(this.TxtBookingID);
-            this.panel1.Controls.Add(this.TxtEmployeeID);
-            this.panel1.Location = new System.Drawing.Point(19, 71);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1062, 341);
-            this.panel1.TabIndex = 4;
+            this.PnlBooking.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PnlBooking.Controls.Add(this.BtnBookingSave);
+            this.PnlBooking.Controls.Add(this.PnlSex);
+            this.PnlBooking.Controls.Add(this.DtpCheckInDate);
+            this.PnlBooking.Controls.Add(this.DtpBookingDate);
+            this.PnlBooking.Controls.Add(this.LblSex);
+            this.PnlBooking.Controls.Add(this.LblNationalIDCard);
+            this.PnlBooking.Controls.Add(this.LblPhoneNumber);
+            this.PnlBooking.Controls.Add(this.LblCustomerName);
+            this.PnlBooking.Controls.Add(this.LblRoomDepsit);
+            this.PnlBooking.Controls.Add(this.LblCheckInDate);
+            this.PnlBooking.Controls.Add(this.LblRoomAvailability);
+            this.PnlBooking.Controls.Add(this.LblBookingDate);
+            this.PnlBooking.Controls.Add(this.LblRoomNumber);
+            this.PnlBooking.Controls.Add(this.LblCustomerID);
+            this.PnlBooking.Controls.Add(this.LblBookingID);
+            this.PnlBooking.Controls.Add(this.TxtNationalIDCard);
+            this.PnlBooking.Controls.Add(this.TxtPhoneNumber);
+            this.PnlBooking.Controls.Add(this.TxtCustomerName);
+            this.PnlBooking.Controls.Add(this.TxtRoomDeposit);
+            this.PnlBooking.Controls.Add(this.LblEmployeeID);
+            this.PnlBooking.Controls.Add(this.TxtRoomAvailability);
+            this.PnlBooking.Controls.Add(this.TxtRoomNumber);
+            this.PnlBooking.Controls.Add(this.TxtCustomerID);
+            this.PnlBooking.Controls.Add(this.TxtBookingID);
+            this.PnlBooking.Controls.Add(this.TxtEmployeeID);
+            this.PnlBooking.Location = new System.Drawing.Point(19, 71);
+            this.PnlBooking.Name = "PnlBooking";
+            this.PnlBooking.Size = new System.Drawing.Size(1062, 341);
+            this.PnlBooking.TabIndex = 4;
             // 
             // BtnBookingSave
             // 
@@ -371,12 +371,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.PnlBooking);
             this.Controls.Add(this.LblBooking);
             this.Name = "UC_Booking";
             this.Size = new System.Drawing.Size(1094, 423);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.PnlBooking.ResumeLayout(false);
+            this.PnlBooking.PerformLayout();
             this.PnlSex.ResumeLayout(false);
             this.PnlSex.PerformLayout();
             this.ResumeLayout(false);
@@ -390,7 +390,7 @@
         private System.Windows.Forms.Label LblEmployeeID;
         private System.Windows.Forms.TextBox TxtEmployeeID;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel PnlBooking;
         private System.Windows.Forms.Label LblBookingID;
         private System.Windows.Forms.TextBox TxtBookingID;
         private System.Windows.Forms.Label LblRoomNumber;

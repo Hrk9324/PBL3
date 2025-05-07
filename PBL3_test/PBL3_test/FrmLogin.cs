@@ -68,7 +68,7 @@ namespace PBL3_test
                 //MessageBox.Show("Login successful!");
                 // Open the main form or perform any other action here
                 this.Hide();
-                FrmDashBoard mainForm = new FrmDashBoard();
+                FrmDashboardStaff mainForm = new FrmDashboardStaff();
                 mainForm.ShowDialog();
                 this.Close();
             }
@@ -88,6 +88,6 @@ namespace PBL3_test
 
         }
 
-        
+
     }
 }

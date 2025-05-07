@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PBL3_test
 {
-    public partial class FrmDashBoard : Form
+    public partial class FrmDashBoardManager : Form
     {
-        public FrmDashBoard()
+        public FrmDashBoardManager()
         {
             InitializeComponent();
             this.MaximizeBox = false;
@@ -20,63 +20,63 @@ namespace PBL3_test
         private void FrmDashBoard_Load(object sender, EventArgs e)
         {
             uC_EditRoom1.Visible = false;
-            BtnEditRoom.PerformClick();
+            BtnEditRoom_Manager.PerformClick();
 
             uC_Booking1.Visible = false;
-            BtnBooking.PerformClick();
+            BtnBooking_Manager.PerformClick();
 
             uC_Payment1.Visible = false;
-            BtnPayment.PerformClick();
+            BtnPayment_Manager.PerformClick();
 
             uC_Revenue1.Visible = false;
-            BtnRevenue.PerformClick();
+            BtnRevenue_Manager.PerformClick();
 
             uC_RoomList2.Visible = false;
-            BtnRoomList.PerformClick();
+            BtnRoomList_Manager.PerformClick();
 
             uC_Staff1.Visible = false;
-            BtnStaff.PerformClick();
+            BtnStaff_Manager.PerformClick();
 
         }
 
         private void BtnEditRoom_Click(object sender, EventArgs e)
         {
-            PnlMoving.Left = BtnEditRoom.Left + 35;
+            PnlMoving.Left = BtnEditRoom_Manager.Left + 40;
             uC_EditRoom1.Visible = true;
             uC_EditRoom1.BringToFront();
         }
 
         private void BtnRoomList_Click(object sender, EventArgs e)
         {
-            PnlMoving.Left = BtnRoomList.Left + 40;
+            PnlMoving.Left = BtnRoomList_Manager.Left + 40;
             uC_RoomList2.Visible = true;
             uC_RoomList2.BringToFront();
         }
 
         private void BtnBooking_Click(object sender, EventArgs e)
         {
-            PnlMoving.Left = BtnBooking.Left + 40;
+            PnlMoving.Left = BtnBooking_Manager.Left + 40;
             uC_Booking1.Visible = true;
             uC_Booking1.BringToFront();
         }
 
         private void BtnPayment_Click(object sender, EventArgs e)
         {
-            PnlMoving.Left = BtnPayment.Left + 40;
+            PnlMoving.Left = BtnPayment_Manager.Left + 40;
             uC_Payment1.Visible = true;
             uC_Payment1.BringToFront();
         }
 
         private void BtnRevenue_Click(object sender, EventArgs e)
         {
-            PnlMoving.Left = BtnRevenue.Left + 40;
+            PnlMoving.Left = BtnRevenue_Manager.Left + 40;
             uC_Revenue1.Visible = true;
             uC_Revenue1.BringToFront();
         }
 
         private void BtnStaff_Click(object sender, EventArgs e)
         {
-            PnlMoving.Left = BtnStaff.Left + 40;
+            PnlMoving.Left = BtnStaff_Manager.Left + 40;
             uC_Staff1.Visible = true;
             uC_Staff1.BringToFront();
         }

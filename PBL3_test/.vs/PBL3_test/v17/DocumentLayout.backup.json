@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3_test.csproj|c:\\users\\admin\\documents\\code\\pbl3\\pbl3_test\\pbl3_test\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3_test.csproj|solutionrelative:pbl3_test\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3.csproj|c:\\users\\admin\\documents\\code\\pbl3\\pbl3_test\\pbl3_test\\frmdashboardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3.csproj|solutionrelative:pbl3_test\\frmdashboardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3_test.csproj|c:\\users\\admin\\documents\\code\\pbl3\\pbl3_test\\pbl3_test\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3_test.csproj|solutionrelative:pbl3_test\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3.csproj|c:\\users\\admin\\documents\\code\\pbl3\\pbl3_test\\pbl3_test\\frmdashboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3.csproj|solutionrelative:pbl3_test\\frmdashboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3_test.csproj|c:\\users\\admin\\documents\\code\\pbl3\\pbl3_test\\pbl3_test\\user control\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3_test.csproj|solutionrelative:pbl3_test\\user control\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3.csproj|C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\pbl3_test\\frmdashboardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3.csproj|solutionrelative:pbl3_test\\frmdashboardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3_test.csproj|c:\\users\\admin\\documents\\code\\pbl3\\pbl3_test\\pbl3_test\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3_test.csproj|solutionrelative:pbl3_test\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3.csproj|C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\pbl3_test\\frmdashboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE7A373F-BE08-49AE-AEBB-30BF97DD955A}|PBL3_test\\PBL3.csproj|solutionrelative:pbl3_test\\frmdashboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboard.Designer.cs",
-              "RelativeDocumentMoniker": "PBL3_test\\FrmDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboard.Designer.cs",
-              "RelativeToolTip": "PBL3_test\\FrmDashboard.Designer.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAlwM0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FrmDashboardManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboardManager.cs",
+              "RelativeDocumentMoniker": "PBL3_test\\FrmDashboardManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboardManager.cs",
+              "RelativeToolTip": "PBL3_test\\FrmDashboardManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T03:11:32.895Z",
+              "WhenOpened": "2025-05-07T10:01:48.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboard.cs",
-              "RelativeDocumentMoniker": "PBL3_test\\FrmDashboard.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboard.cs",
-              "RelativeToolTip": "PBL3_test\\FrmDashboard.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDQAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FrmDashboardStaff.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboardStaff.cs",
+              "RelativeDocumentMoniker": "PBL3_test\\FrmDashboardStaff.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboardStaff.cs",
+              "RelativeToolTip": "PBL3_test\\FrmDashboardStaff.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwB8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T03:09:02.643Z",
+              "WhenOpened": "2025-05-07T10:00:22.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UC_Revenue.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\User Control\\UC_Revenue.cs",
-              "RelativeDocumentMoniker": "PBL3_test\\User Control\\UC_Revenue.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\User Control\\UC_Revenue.cs [Design]",
-              "RelativeToolTip": "PBL3_test\\User Control\\UC_Revenue.cs [Design]",
+              "Title": "FrmDashboardStaff.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboardStaff.cs",
+              "RelativeDocumentMoniker": "PBL3_test\\FrmDashboardStaff.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboardStaff.cs [Design]",
+              "RelativeToolTip": "PBL3_test\\FrmDashboardStaff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T03:08:44.043Z",
+              "WhenOpened": "2025-05-07T03:56:21.376Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboard.cs",
-              "RelativeDocumentMoniker": "PBL3_test\\FrmDashboard.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboard.cs [Design]",
-              "RelativeToolTip": "PBL3_test\\FrmDashboard.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "FrmDashboardManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboardManager.cs",
+              "RelativeDocumentMoniker": "PBL3_test\\FrmDashboardManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\PBL3\\PBL3_test\\PBL3_test\\FrmDashboardManager.cs [Design]",
+              "RelativeToolTip": "PBL3_test\\FrmDashboardManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T04:17:07.19Z",
+              "WhenOpened": "2025-05-07T03:58:34.885Z",
               "EditorCaption": " [Design]"
             }
           ]
